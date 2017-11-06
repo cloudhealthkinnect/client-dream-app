@@ -1,0 +1,173 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+/*
+ * Typography
+ */
+
+h1 {
+  margin-bottom: 20px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #eee;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+
+/*
+ * Sidebar
+ */
+
+.topbar {
+  background-color: #0066a4;
+}
+
+
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  background-color: #0066a4;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+}
+
+/* Sidebar navigation */
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-bottom{
+  bottom: 0;
+  margin-bottom: 0;
+  position: absolute;
+  width: 100%;
+  border-top: 1px solid #004671;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-logo {
+  min-height: 38px;
+  margin-bottom: 0px;
+  padding: 10px 15px 5px 15px;
+  white-space: nowrap;
+  color: white;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+  color: white;
+}
+
+/*
+ * Dashboard
+ */
+
+ /* Placeholders */
+.placeholders {
+  padding-bottom: 3rem;
+}
+
+.placeholder img {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+
+
+.info-card {
+  background-color: white;
+  border-top: 4px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-color: #e1e1e1;
+  box-shadow: 0px 0px 10px 0px rgba(238, 238, 238, 0.9);
+  margin-top: 19px;
+  margin-bottom: 19px;
+  padding: 15px;
+  width: 100%;
+  -webkit-transition: border-color 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out;
+}
+
+.info-card .header .cover {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.info-card .header img {
+  height: 250px;
+}
+
+.info-card.list {
+  padding: 0;
+}
+
+.info-card.list .title {
+  padding: 20px;
+  text-align: center;
+}
+
+.info-card.primary {
+  border-top-color: #0076be;
+}
+
+.info-card.secondary {
+  border-top-color: #00bca7;
+}
+
+.info-card.warning {
+  border-top-color: #ffc107;
+}
+
+
+.list-group {
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+
+.info-card.list > .list-group .item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  background-color: transparent;
+  border-top: 1px solid #ddd;
+}

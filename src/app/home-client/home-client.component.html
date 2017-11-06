@@ -1,0 +1,83 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 col-lg-12 col-xl-10 col-xl-offset-1">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="info-card primary list">
+            <a ui-sref="app.home.pep">
+              <div class="header">
+                  <img class="cover" src="assets/pep2-min.png" alt="Card image cap"/>
+              </div>
+              <div class="title center-block">
+                <h4 class="text-light">
+                  Pre-Employment Medicals
+                </h4>
+              </div>
+            </a>
+            <ul class="list-group">
+              <a ui-sref="app.referrals.new({master_service:'pre-employment-screen' %>)">
+                <li class="item">Make Referral</li>
+              </a>
+              <a ui-sref="app.referrals.list">
+                <li class="item">Find Referral</li>
+              </a>
+              <a ui-sref="app.reports.tabs">
+                <li class="item">Generate Report</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="info-card secondary list">
+            <a ui-sref="app.home.hs">
+              <div class="header">
+                  <img class="cover" src="assets/hs-min.jpg" alt="Card image cap" />
+              </div>
+              <div class="title center-block">
+                <h4 class="text-light">
+                  Health Surveillance
+                </h4>
+              </div>
+            </a>
+            <ul class="list-group">
+              <a ui-sref="app.referrals.new({master_service:'hs' %>)">
+                <li class="item">Make Referral</li>
+              </a>
+              <a ui-sref="app.referrals.list">
+                <li class="item">Find Referral</li>
+              </a>
+              <a ui-sref="app.reports.tabs">
+                <li class="item">Generate Report</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="info-card warning list">
+            <a ui-sref="app.home.im">
+              <div class="header">
+                  <img class="cover" src="assets/im-min.jpg" alt="Card image cap" />
+              </div>
+              <div class="title center-block">
+                <h4 class="text-light">
+                  Injury Management
+                </h4>
+              </div>
+            </a>
+            <ul class="list-group">
+              <a ui-sref="app.referrals.new({master_service:'acute-injury-management' %>)">
+                <li class="item">Make Referral</li>
+              </a>
+              <a ui-sref="app.referrals.list">
+                <li class="item">Find Referral</li>
+              </a>
+              <a ui-sref="app.reports.tabs">
+                <li class="item">Generate Report</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
